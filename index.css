@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
 }
-header {
+.header-1 {
     display: block;
     overflow: hidden;
     position: fixed;
@@ -19,29 +19,17 @@ header {
     width: 100%;
 }
 
-.header {
+.header-1 {
     background-color: #f7f8f8;
     position: sticky;    
     top: 0;
     margin-top: 0rem;
-    z-index: 6;
 }
-.main-head {
+.main-head-1 {
     display: flex;
     margin-top: 0rem;
     text-align: center;
 }
-
-
-
-@media (max-width: 1280px) {
-    .main-head {
-        max-width: 1024px;
-    }
-}
-
-
-
 
 .logo {
     margin-right: 2.5rem;
@@ -77,25 +65,113 @@ header {
     margin-top: 0.6rem;
 }
 
+.header-2 {
+    display: block;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.header-2 {
+    background-color: #f7f8f8;
+    position: sticky;    
+    top: 0;
+    margin-top: 0rem;
+}
+.main-head-2 {
+    margin-top: 0rem;
+    text-align: center;
+}
+
+.header-02 {
+    display: flex;
+}
+
 .search-location {
-    width: 27.2rem;
-    min-width: 27.2rem;
+    width: 272px;
 }
 
 
 .search-location {
+
     background-color: #fff;
     border-radius: 4px;
     border: 1px solid #002f34;
     height: 48px;
     max-height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    margin-top: 8px;
+    margin-left: 35px;
     display: flex;
 }
 
-.l-input {
-    border-color: white;
-    background-color: #fff;
+.search-logo {
+    margin: 9px;
+}
 
+.l-input {
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: medium;
+    border: none;
+}
+
+.search-product {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 0.5px solid #002f34;
+    height: 48px;
+    max-height: 100%;
+    margin-top: 8px;
+    margin-left: 18px;
+    display: flex;
+
+}
+
+.l2-input {
+    font-family: Roboto,Helvetica,sans-serif;
+    margin-top: 1px;
+    margin-left: 15px;
+    font-size: medium;
+    border: none;
+    width: 725px;
+}
+.search-plogo {
+    
+    fill: #fff;
+    background-color: #002f34;
+    height: 47px;
+    width: 50px;
+}
+.s-lofo {
+    margin: 9px;
+}
+
+.login {
+    margin-top: 25px;
+    margin-left: 31px;
+}
+.login a {
+    font-family: Arial, Helvetica, sans-serif   ;
+    text-decoration: none;
+    border-bottom: 2px solid #002f34;
+    color: black;
+}
+
+.sell{
+    background-image: url(./Screenshot\ \(103\).png);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    border-radius: 30px;
+    height: 50px;
+    width: 90px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.sell-h4 {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif   ;
+    text-decoration: underline;
+    color: black;
 }
